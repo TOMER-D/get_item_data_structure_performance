@@ -1,0 +1,15 @@
+iterative binary search algorithm
+elements amount,min index,max index,target number,repetitions
+100000000,0,99999999,88000,1000
+algorithm result
+result,iteration
+88000,25
+performance table:
+data structure type,average elapsed time (seconds)
+<class 'list'>,6.284800000074142e-06
+<class 'tuple'>,7.716999999836105e-06
+<class 'numpy.ndarray'>,1.8908500000001993e-05
+<class 'dict'>,1.215430000014095e-05
+<class 'array.array'>,7.702300000090645e-06
+<class 'collections.ChainMap'>,1.1327099999839162e-05
+<class 'mappingproxy'>,5.603300000082356e-06
